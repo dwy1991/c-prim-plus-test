@@ -9,6 +9,7 @@ int main()
 	scanf("%f",&salary);
 	printf("请输入你的娱乐消费");
 	 	scanf("%f",&consume);
+	printf("你本月结余%.2f元\n",salary-1000-consume);
 	if(salary>=(1000+consume))
 	{
 		printf("你的消费正常"); 
